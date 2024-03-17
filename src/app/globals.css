@@ -25,7 +25,16 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
-
+.contact-input {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition-duration: 0.15ms;
+  padding: 0.625rem;
+  margin-top: 0.5rem;
+  width: 100%;
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;
