@@ -6,7 +6,7 @@ import { TypeAnimation } from "react-type-animation";
 function AboutSection() {
   return (
     <section id="about" className="snap-start">
-      <div className="h-screen container px-12 mx-auto">
+      <div className="h-screen container px-6 md:px-12 mx-auto">
         <div className="relative w-full ">
           <div className="absolute w-full top-[95px] md:top-[90px] flex justify-center">
             <h2 className="text-2xl md:text-3xl tracking-widest font-semibold opacity-70">
@@ -32,7 +32,7 @@ function AboutSection() {
             height={150}
           />
 
-          <div className="flex mt-8 md:mt-0 flex-col  justify-start ">
+          <div className="flex mt-2 md:mt-0 flex-col  justify-start ">
             <h3 className="sm:text-2xl font-bold mb-4">
               A LITTLE <span className="text-[#57d6a5] ">INTRODUCTION:</span>
             </h3>

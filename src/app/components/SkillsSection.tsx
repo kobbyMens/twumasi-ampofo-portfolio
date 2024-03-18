@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 function SkillsSection() {
   return (
     <section id="skills" className="snap-start">
-      <div className="h-screen relative  flex items-center justify-center container px-12 mx-auto">
+      <div className="h-screen relative  flex items-center justify-center container px-4 md:px-12 mx-auto">
         <div className="absolute top-[95px] md:top-[90px] flex ">
           <h2 className="text-2xl md:text-3xl tracking-widest font-semibold opacity-70">
             My Skill Set

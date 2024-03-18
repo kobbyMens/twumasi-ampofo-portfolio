@@ -6,7 +6,7 @@ import { TypeAnimation } from "react-type-animation";
 function ProjectSection() {
   return (
     <section id="projects" className="snap-start">
-      <div className="h-screen container px-12 mx-auto">
+      <div className="h-screen container px-4 md:px-12 mx-auto">
         <div className="relative w-full ">
           <div className="absolute w-full top-[95px] md:top-[90px] flex flex-col items-center justify-center">
             <h2 className="text-2xl md:text-3xl tracking-widest font-semibold opacity-70">

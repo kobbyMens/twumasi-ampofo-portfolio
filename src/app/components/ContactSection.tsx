@@ -39,7 +39,7 @@ function ContactSection() {
 
   return (
     <section id="contact" className="snap-start">
-      <div className="h-screen container px-12 mx-auto">
+      <div className="h-screen container px-4 sm:px-12 mx-auto">
         <div className="relative w-full ">
           <div className="absolute w-full top-[95px] md:top-[90px] flex justify-center">
             <h2 className="text-2xl md:text-3xl tracking-widest font-semibold opacity-70">
