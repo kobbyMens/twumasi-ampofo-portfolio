@@ -50,11 +50,11 @@ function ContactSection() {
         <div className="w-full h-full flex flex-col md:flex-row items-center justify-center gap-16 md:gap-24 ">
           <div className="space-y-4 md:basis-1/2">
             <h3 className="lg:text-5xl md:text-4xl text-3xl font-bold">
-              Let's connect
+              Let&apos;s connect
             </h3>
             <p className="opacity-50 text-sm md:text-base">
-              I am current available to work on new projects. You can hit me up
-              via my email and I will respond as soon as possible.
+              I am currently available to work on new projects. You can hit me
+              up via my email and I will respond as soon as possible.
             </p>
             <div className="flex gap-4">
               <Link href={"/"} className="hover:opacity-100 opacity-50">

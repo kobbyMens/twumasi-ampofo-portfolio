@@ -37,7 +37,7 @@ function AboutSection() {
               A LITTLE <span className="text-[#57d6a5] ">INTRODUCTION:</span>
             </h3>
             <p className=" mb-4 md:text-lg lg:text-xl">
-              Hi, I'm{" "}
+              Hi, I&apos;m{" "}
               <TypeAnimation
                 sequence={[1500, "Ampofo Twumasi", 500, " "]}
                 wrapper="span"

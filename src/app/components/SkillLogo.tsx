@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function SkillLogo({ imageSrc, years }: { imageSrc: string; years: string }) {
   return (
-    <div className="relative cursor-pointer group">
+    <div className="relative group">
       <div className="absolute w-full h-full rounded-full top-0 left-0 bg-gray-500 hidden group-hover:flex items-center justify-center transition-all opacity-90 ">
         <span className="font-semibold text-2xl md:text-3xl">{years}</span>
       </div>
