@@ -11,11 +11,6 @@ function ProjectSection() {
           <h2 className="text-2xl md:text-3xl tracking-widest font-semibold opacity-70">
             Projects
           </h2>
-
-          <p className="text-base sm:text-lg mt-3 p-2 text-center">
-            List of projects I have worked on as a
-            <span className="text-[#57d6a5]"> full-stack developer</span>
-          </p>
         </div>
 
         <div className="h-full w-full items-center justify-center flex ">

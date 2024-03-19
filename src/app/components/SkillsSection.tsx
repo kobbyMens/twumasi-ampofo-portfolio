@@ -6,10 +6,15 @@ function SkillsSection() {
   return (
     <section id="skills" className="snap-start">
       <div className="h-screen relative  flex items-center justify-center container px-4 md:px-12 mx-auto">
-        <div className="absolute top-[95px] md:top-[90px] flex ">
+        <div className="absolute top-[95px] md:top-[90px] flex flex-col items-center ">
           <h2 className="text-2xl md:text-3xl tracking-widest font-semibold opacity-70">
             My Skill Set
           </h2>
+
+          <p className="text-base sm:text-lg mt-3 p-2 text-center">
+            List of projects I have worked on as a
+            <span className="text-[#57d6a5]"> full-stack developer</span>
+          </p>
         </div>
 
         <motion.div
