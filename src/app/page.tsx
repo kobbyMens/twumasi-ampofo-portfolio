@@ -8,7 +8,7 @@ import ScrollTopButton from "./components/ScrollTopButton";
 export default function Home() {
   return (
     <>
-      <div className="h-screen snap-y snap-mandatory z-0 scroll-smooth overflow-scroll">
+      <div className="h-screen snap-y snap-mandatory z-0 scroll-smooth overflow-y-scroll overflow-x-hidden">
         <Header />
         <HeroSection />
         <AboutSection />
