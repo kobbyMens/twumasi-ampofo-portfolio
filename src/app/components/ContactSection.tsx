@@ -4,6 +4,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import { useState } from "react";
 import axios from "axios";
+
 import Link from "next/link";
 
 function ContactSection() {
@@ -47,7 +48,7 @@ function ContactSection() {
             </h2>
           </div>
         </div>
-        <div className="w-full h-full flex flex-col md:flex-row items-center justify-center gap-8 md:gap-24 ">
+        <div className="w-full h-full flex flex-col md:flex-row items-center justify-center gap-5 md:gap-24 ">
           <div className="space-y-4 md:basis-1/2">
             <h3 className="text-2xl lg:text-5xl md:text-4xl font-bold">
               Let&apos;s connect

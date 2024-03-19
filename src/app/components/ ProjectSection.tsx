@@ -21,7 +21,7 @@ function ProjectSection() {
         <div className="h-full w-full items-center justify-center flex ">
           <div className="w-full h-[70%] md:h-[90%] relative flex justify-center overflow-y-hidden overflow-x-scroll snap-x">
             {/*first project */}
-            <div className="snap-start w-full relative top-[85px] md:top-[165px] flex space-y-6 md:space-y-8 flex-col flex-shrink-0 items-center ">
+            <div className="snap-center w-full relative top-[85px] md:top-[165px] flex space-y-6 md:space-y-8 flex-col flex-shrink-0 items-center ">
               <div className="project-slide flex items-center flex-col">
                 <Image
                   className="hidden md:block"
@@ -86,7 +86,7 @@ function ProjectSection() {
                 />
               </div>
 
-              <p className="project-description text-sm md:text-base lg:text-center text-justify p-2">
+              <p className="project-description text-sm md:text-base lg:text-center text-justify px-2">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
                 ac enim vulputate, semper neque eu, facilisis arcu. Phasellus et
                 dui fermentum, pretium urna eget, facilisis nulla. Suspendisse
@@ -96,7 +96,7 @@ function ProjectSection() {
             </div>
 
             {/* New Project */}
-            <div className="snap-start w-full relative top-[85px] md:top-[165px] selection:flex space-y-6 md:space-y-8 flex-col flex-shrink-0 items-center ">
+            <div className="snap-center w-full relative top-[85px] md:top-[165px] selection:flex space-y-6 md:space-y-8 flex-col flex-shrink-0 items-center ">
               <div className="project-slide flex items-center flex-col">
                 <Image
                   className="hidden md:block"
@@ -161,7 +161,7 @@ function ProjectSection() {
                 />
               </div>
 
-              <p className="project-description text-sm md:text-base lg:text-center text-justify p-2">
+              <p className="project-description text-sm md:text-base lg:text-center text-justify px-2">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
                 ac enim vulputate, semper neque eu, facilisis arcu. Phasellus et
                 dui fermentum, pretium urna eget, facilisis nulla. Suspendisse
@@ -236,7 +236,7 @@ function ProjectSection() {
                 />
               </div>
 
-              <p className="project-description text-sm md:text-base lg:text-center text-justify p-2">
+              <p className="project-description text-sm md:text-base lg:text-center text-justify px-2">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
                 ac enim vulputate, semper neque eu, facilisis arcu. Phasellus et
                 dui fermentum, pretium urna eget, facilisis nulla. Suspendisse

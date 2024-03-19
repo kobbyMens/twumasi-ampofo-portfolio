@@ -33,10 +33,10 @@ function AboutSection() {
           />
 
           <div className="flex mt-2 md:mt-0 flex-col  justify-start ">
-            <h3 className="sm:text-2xl font-bold mb-4">
+            <h3 className="sm:text-2xl font-semibold mb-4">
               A LITTLE <span className="text-[#57d6a5] ">INTRODUCTION:</span>
             </h3>
-            <p className=" mb-4 md:text-lg lg:text-xl">
+            <p className=" mb-4 md:text-lg font-medium lg:text-xl">
               Hi, I&apos;m{" "}
               <TypeAnimation
                 sequence={[1500, "Ampofo Twumasi", 500, " "]}
@@ -45,7 +45,7 @@ function AboutSection() {
                 repeat={Infinity}
               />
             </p>
-            <p className="font-sans font-light text-justify text-sm sm:text-base md:text-lg lg:text-xl">
+            <p className="font-light text-justify text-sm sm:text-base lg:text-xl">
               As as seasoned full-stack web developer, I bring over 5 years of
               diverse experience across projects of varying scales. My toolkit
               encompasses a wide array of technologies, including JavaScript,
