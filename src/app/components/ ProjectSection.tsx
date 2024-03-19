@@ -6,28 +6,26 @@ import { TypeAnimation } from "react-type-animation";
 function ProjectSection() {
   return (
     <section id="projects" className="snap-start">
-      <div className="h-screen container px-4 md:px-12 mx-auto">
-        <div className="relative w-full ">
-          <div className="absolute w-full top-[95px] md:top-[90px] flex flex-col items-center justify-center">
-            <h2 className="text-2xl md:text-3xl tracking-widest font-semibold opacity-70">
-              Projects
-            </h2>
-            <p className="text-base sm:text-lg mt-3 text-center">
-              List of projects I have worked on as a
-              <span className="text-[#57d6a5]"> full-stack developer</span>
-            </p>
-          </div>
+      <div className="h-screen relative  container px-4 md:px-4 mx-auto">
+        <div className="absolute w-full top-[95px] md:top-[90px] flex flex-col items-center justify-center">
+          <h2 className="text-2xl md:text-3xl tracking-widest font-semibold opacity-70">
+            Projects
+          </h2>
+          <p className="text-base sm:text-lg mt-3 text-center">
+            List of projects I have worked on as a
+            <span className="text-[#57d6a5]"> full-stack developer</span>
+          </p>
         </div>
 
         <div className="h-full w-full items-center justify-center flex ">
-          <div className="w-full flex overflow-y-hidden overflow-x-scroll md:mt-6 snap-x ">
-            <div className="snap-center w-full flex space-y-10 md:space-y-8 flex-col flex-shrink-0 items-center justify-center">
+          <div className="w-full h-[70%] md:h-[90%] relative flex overflow-y-hidden overflow-x-scroll snap-x ">
+            <div className="snap-center w-full relative top-[100px] md:top-[165px] selection:flex space-y-10 md:space-y-8 flex-col flex-shrink-0 items-center ">
               <div className="project-slide flex items-center flex-col">
                 <Image
                   className="hidden md:block"
-                  src={"/images/projects/survey-app-large.png"}
+                  src={"/images/projects/survey-app-large-3.png"}
                   width={800}
-                  height={700}
+                  height={350}
                   alt="Survey app image"
                 />
                 <Image
@@ -99,7 +97,7 @@ function ProjectSection() {
             <div className="flex snap-center w-full flex-shrink-0 items-center flex-col">
               <Image
                 className="hidden md:block"
-                src={"/images/projects/survey-app-large.png"}
+                src={"/images/projects/survey-app-large-3.png"}
                 width={800}
                 height={700}
                 alt="Survey app image"
