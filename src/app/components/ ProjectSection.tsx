@@ -18,8 +18,8 @@ function ProjectSection() {
         </div>
 
         <div className="h-full w-full items-center justify-center flex ">
-          <div className="w-full h-[65%] md:h-[90%] relative flex overflow-y-hidden overflow-x-scroll snap-x ">
-            <div className="snap-center w-full relative top-[90px] md:top-[165px] selection:flex space-y-10 md:space-y-8 flex-col flex-shrink-0 items-center ">
+          <div className="w-full md:h-[90%] relative flex overflow-y-hidden overflow-x-scroll snap-x ">
+            <div className="snap-center w-full relative  md:top-[165px] selection:flex space-y-10 md:space-y-8 flex-col flex-shrink-0 items-center ">
               <div className="project-slide flex items-center flex-col">
                 <Image
                   className="hidden md:block"
