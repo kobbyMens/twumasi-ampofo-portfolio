@@ -12,7 +12,7 @@ function SkillsSection() {
           </h2>
 
           <p className="text-base sm:text-lg mt-3 p-2 text-center">
-            List of projects I have worked on as a
+            Some development tools I have used over the years as a
             <span className="text-[#57d6a5]"> full-stack developer</span>
           </p>
         </div>
