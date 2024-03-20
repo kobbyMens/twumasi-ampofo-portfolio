@@ -14,7 +14,7 @@ function AboutSection() {
             </h2>
           </div>
         </div>
-        <div className="w-full h-full flex items-center flex-col md:flex-row justify-center md:gap-12">
+        <div className="w-full md:h-full relative top-[130px] md:top-0 flex items-center flex-col md:flex-row sm:justify-center md:gap-12">
           <Image
             className="hidden md:block"
             src={"/images/about-section-image-2.jpg"}
