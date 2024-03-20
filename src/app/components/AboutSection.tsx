@@ -32,11 +32,11 @@ function AboutSection() {
             height={150}
           />
 
-          <div className="flex mt-2 md:mt-0 flex-col  justify-start ">
-            <h3 className="sm:text-2xl font-semibold mb-4">
+          <div className="flex md:mt-0 flex-col  justify-start ">
+            <h3 className="sm:text-2xl font-semibold mb-3 sm:mb-4">
               A LITTLE <span className="text-[#57d6a5] ">INTRODUCTION:</span>
             </h3>
-            <p className=" mb-4 md:text-lg font-medium lg:text-xl">
+            <p className=" mb-2  md:text-lg font-medium lg:text-xl">
               Hi, I&apos;m{" "}
               <TypeAnimation
                 sequence={[1500, "Ampofo Twumasi", 500, " "]}
