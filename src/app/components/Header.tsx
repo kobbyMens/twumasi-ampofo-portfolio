@@ -16,10 +16,16 @@ function Header() {
         </Link>
       </div>
       <div className="socials flex flex-row items-center gap-6">
-        <Link href={"/"} className="hover:opacity-100 opacity-50">
+        <Link
+          href={"https://github.com/kobbyMens"}
+          className="hover:opacity-100 opacity-50"
+        >
           <GitHubIcon fontSize={"large"} />
         </Link>
-        <Link href={"/"} className="hover:opacity-100 opacity-50">
+        <Link
+          href={"linkedin.com/in/twumasi-ampofo-100"}
+          className="hover:opacity-100 opacity-50"
+        >
           <LinkedInIcon fontSize="large" />
         </Link>
       </div>
