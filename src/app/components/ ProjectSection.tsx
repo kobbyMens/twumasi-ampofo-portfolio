@@ -81,10 +81,10 @@ function ProjectSection() {
             </div>
 
             <p className="project-description text-sm md:text-base lg:text-center text-justify p-2">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac
-              enim vulputate, semper neque eu, facilisis arcu. Phasellus et dui
-              fermentum, pretium urna eget, facilisis nulla. Suspendisse commodo
-              at velit at cursus. Praesent ullamcorper eu enim at viverra
+              Free Survey App enables users to create survey primary through a
+              drag and drop interface. The app utilizes technologies such as
+              React.js, Redux and Typescript for the front-end. The main
+              back-end technologies used are express.js and mongoDB.
             </p>
           </div>
 
