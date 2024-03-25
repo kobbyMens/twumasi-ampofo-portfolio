@@ -6,9 +6,9 @@ import { TypeAnimation } from "react-type-animation";
 import Link from "next/link";
 function HeroSection() {
   return (
-    <section id="heroSection" className="snap-start ">
-      <div className="h-screen relative flex flex-col items-center justify-center text-center overflow-hidden  space-y-12">
-        <div className="absolute top-32">
+    <section id="heroSection" className="snap-start md:pb-24 md:pt-[100px]">
+      <div className="h-screen md:h-auto relative flex flex-col items-center justify-center text-center overflow-hidden space-y-12">
+        <div className="absolute top-32 md:relative md:top-0 md:mt-3">
           <Link
             href="https://drive.google.com/file/d/1BgZGyNQ0Ftb0hSSXGGhOl9TdfIyAW7kH/view?usp=drive_link"
             target="_blank"
@@ -50,7 +50,7 @@ function HeroSection() {
               repeat={Infinity}
             />
           </h1>
-          <nav className="mt-12">
+          <nav className="mt-12 md:mb-2">
             <ul className="flex flex-row flex-wrap item-center justify-center gap-4 sm:gap-8">
               <li>
                 <Navlink text={"About"} href="#about" />

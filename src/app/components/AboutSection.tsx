@@ -5,16 +5,16 @@ import { TypeAnimation } from "react-type-animation";
 
 function AboutSection() {
   return (
-    <section id="about" className="snap-start">
-      <div className="h-screen container px-6 md:px-12 mx-auto">
-        <div className="relative w-full ">
-          <div className="absolute w-full top-[95px] md:top-[90px] flex justify-center">
+    <section id="about" className="snap-start md:pb-16">
+      <div className="h-screen md:h-auto container px-6 md:px-12 mx-auto">
+        <div className="relative">
+          <div className="absolute md:relative w-full top-[95px] md:top-0 flex justify-center">
             <h2 className="text-2xl md:text-3xl tracking-widest font-semibold opacity-70">
               About Me
             </h2>
           </div>
         </div>
-        <div className="w-full md:h-full relative top-[130px] md:top-0 flex items-center flex-col md:flex-row sm:justify-center md:gap-12">
+        <div className="w-full md:h-full md:py-24 relative top-[130px] md:top-0 flex items-center flex-col md:flex-row sm:justify-center md:gap-12">
           <Image
             className="hidden md:block"
             src={"/images/about-section-image-2.jpg"}

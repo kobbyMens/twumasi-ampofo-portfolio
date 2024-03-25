@@ -28,7 +28,7 @@ export default function Home() {
   return (
     <>
       {orientation === "portrait" ? (
-        <div className="h-screen snap-y snap-mandatory z-0 scroll-smooth overflow-y-scroll overflow-x-hidden">
+        <div className="h-screen  snap-y md:snap-none snap-mandatory z-0 scroll-smooth overflow-y-scroll overflow-x-hidden">
           <Header />
           <HeroSection />
           <AboutSection />
