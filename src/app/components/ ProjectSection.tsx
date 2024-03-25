@@ -93,14 +93,14 @@ function ProjectSection() {
             <div className="project-slide flex items-center flex-col">
               <Image
                 className="hidden md:block"
-                src={"/images/projects/survey-app-large-3.png"}
+                src={"/images/projects/cedijob-app-large.png"}
                 width={800}
                 height={350}
                 alt="Survey app image"
               />
               <Image
                 className="block md:hidden"
-                src={"/images/projects/survey-app-small.png"}
+                src={"/images/projects/cedijob-app-small.png"}
                 width={300}
                 height={400}
                 alt="Survey app image"
@@ -108,7 +108,7 @@ function ProjectSection() {
               <h3 className="mt-4 tracking-widest text-base sm:text-lg md:text-xl">
                 PROJECT 2/4 :{" "}
                 <TypeAnimation
-                  sequence={[1500, " FREE SURVEY", 500, " "]}
+                  sequence={[1500, " CEDIJOB", 500, " "]}
                   speed={50}
                   wrapper="span"
                   repeat={Infinity}
@@ -118,14 +118,14 @@ function ProjectSection() {
 
             <div className="libraries-logo-container flex justify-around items-center w-full">
               <Image
-                src={"/images/skills-logos/react-js.png"}
+                src={"/images/skills-logos/mysql-logo-1.png"}
                 className="w-8 h-8 md:w-14 md:h-14"
                 width={50}
                 height={50}
                 alt="react.js logo"
               />
               <Image
-                src={"/images/skills-logos/typescript-logo.webp"}
+                src={"/images/skills-logos/javascript-logo-2.webp"}
                 className="w-8 h-8 md:w-14 md:h-14"
                 width={50}
                 height={50}
@@ -138,27 +138,14 @@ function ProjectSection() {
                 height={50}
                 alt="nodejs logo"
               />
-              <Image
-                src={"/images/skills-logos/redux.svg"}
-                className="w-8 h-8 md:w-14 md:h-14"
-                width={50}
-                height={50}
-                alt="redux logo"
-              />
-              <Image
-                src={"/images/skills-logos/mongoDB-logo.webp"}
-                className="w-8 h-8 md:w-14 md:h-14"
-                width={50}
-                height={50}
-                alt="mongoDB logo"
-              />
             </div>
 
             <p className="project-description text-sm md:text-base lg:text-center text-justify px-2">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac
-              enim vulputate, semper neque eu, facilisis arcu. Phasellus et dui
-              fermentum, pretium urna eget, facilisis nulla. Suspendisse commodo
-              at velit at cursus. Praesent ullamcorper eu enim at viverra
+              Cedijob is a web app that gives users the ability to hire clients
+              or sell their service to clients. This app utilizises technologies
+              such as PHP, Node.js, Javascript and MySQL. Paystack is utilized
+              for payment services while Digital Ocean is used for hosting of
+              images.
             </p>
           </div>
 

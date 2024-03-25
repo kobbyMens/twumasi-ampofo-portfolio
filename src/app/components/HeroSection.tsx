@@ -36,7 +36,7 @@ function HeroSection() {
           <h1 className="text-2xl md:text-5xl text-[#57d6a5] font-semibold mt-4">
             <TypeAnimation
               sequence={[
-                "Hello, you can call me Kobi",
+                "Hello, you can call me Kobby",
                 1000,
                 "< I'm a Software Engineer />",
                 1000,

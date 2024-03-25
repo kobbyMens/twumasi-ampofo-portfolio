@@ -18,12 +18,14 @@ function Header() {
       <div className="socials flex flex-row items-center gap-6">
         <Link
           href={"https://github.com/kobbyMens"}
+          target="_blank"
           className="hover:opacity-100 opacity-50"
         >
           <GitHubIcon fontSize={"large"} />
         </Link>
         <Link
-          href={"linkedin.com/in/twumasi-ampofo-100"}
+          href={"https://linkedin.com/in/twumasi-ampofo-100"}
+          target="_blank"
           className="hover:opacity-100 opacity-50"
         >
           <LinkedInIcon fontSize="large" />
