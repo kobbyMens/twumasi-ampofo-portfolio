@@ -4,9 +4,9 @@ import SkillLogo from "./SkillLogo";
 import { motion } from "framer-motion";
 function SkillsSection() {
   return (
-    <section id="skills" className="snap-start">
-      <div className="h-screen relative  flex items-center justify-center container px-4 md:px-12 mx-auto">
-        <div className="absolute top-[95px] md:top-[90px] flex flex-col items-center ">
+    <section id="skills" className="snap-start md:pb-16">
+      <div className="h-screen md:h-auto relative  flex items-center flex-col justify-center container px-4 md:px-12 mx-auto">
+        <div className="absolute md:relative top-[95px] md:top-0 flex flex-col items-center ">
           <h2 className="text-2xl md:text-3xl tracking-widest font-semibold opacity-70">
             My Skill Set
           </h2>
@@ -21,7 +21,7 @@ function SkillsSection() {
           initial={{ rowGap: "132px" }}
           whileInView={{ rowGap: "32px" }}
           transition={{ ease: "circIn", duration: 1 }}
-          className=" grid grid-cols-4 sm:grid-cols-5 gap-8 lg:grid-cols-8 "
+          className=" grid grid-cols-4 sm:grid-cols-5 gap-8  lg:grid-cols-8 md:py-24"
         >
           <SkillLogo
             years={"7+"}

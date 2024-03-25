@@ -5,15 +5,15 @@ import { TypeAnimation } from "react-type-animation";
 
 function ProjectSection() {
   return (
-    <section id="projects" className="snap-start">
-      <div className="h-screen relative flex flex-col container px-4 md:px-4 mx-auto">
-        <div className=" w-full absolute top-[95px] md:top-[90px] flex flex-col items-center justify-center">
+    <section id="projects" className="snap-start md:snap-none md:pb-16">
+      <div className="h-screen md:h-auto relative flex flex-col container px-4 md:px-4 mx-auto">
+        <div className=" w-full absolute top-[95px] md:top-0 flex flex-col items-center justify-center">
           <h2 className="text-2xl md:text-3xl tracking-widest font-semibold opacity-70">
             Projects
           </h2>
         </div>
 
-        <div className="w-full relative top-[150px] flex flex-row overflow-y-hidden overflow-x-scroll snap-x">
+        <div className="w-full relative top-[150px] md:top-0 flex flex-row overflow-y-hidden overflow-x-scroll snap-x md:pt-24 md:mb-16">
           {/*first project */}
           <div className="snap-center w-full relative flex space-y-6 md:space-y-8 flex-col flex-shrink-0 items-center ">
             <div className="project-slide flex items-center flex-col">

@@ -40,15 +40,15 @@ function ContactSection() {
 
   return (
     <section id="contact" className="snap-start">
-      <div className="h-screen container px-4 sm:px-12 mx-auto">
+      <div className="h-screen md:h-auto container px-4 sm:px-12 mx-auto">
         <div className="relative w-full ">
-          <div className="absolute w-full top-[95px] md:top-[90px] flex justify-center">
+          <div className="absolute w-full top-[95px] md:top-0 flex justify-center">
             <h2 className="text-2xl md:text-3xl tracking-widest font-semibold opacity-70">
               Contact Me
             </h2>
           </div>
         </div>
-        <div className="w-full h-full flex flex-col md:flex-row items-center justify-center gap-5 md:gap-24 ">
+        <div className="w-full h-full flex flex-col md:flex-row items-center justify-center gap-5 md:gap-24 md:pb-24 md:pt-32">
           <div className="space-y-4 md:basis-1/2">
             <h3 className="text-2xl lg:text-5xl md:text-4xl font-bold">
               Let&apos;s connect
