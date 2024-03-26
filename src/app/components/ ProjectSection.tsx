@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
+import Link from "next/link";
 
 function ProjectSection() {
   return (
@@ -17,22 +18,28 @@ function ProjectSection() {
           {/*first project */}
           <div className="snap-center w-full relative flex space-y-6 md:space-y-8 flex-col flex-shrink-0 items-center ">
             <div className="project-slide flex items-center flex-col">
-              <Image
-                className="hidden md:block"
-                src={"/images/projects/survey-lg.png"}
-                width={800}
-                height={350}
-                alt="Survey app image"
-              />
-              <Image
-                className="block md:hidden"
-                src={"/images/projects/survey-app-small.png"}
-                width={300}
-                height={400}
-                alt="Survey app image"
-              />
+              <Link href="https://github.com/kobbyMens/survey-app/tree/master">
+                <Image
+                  className="hidden md:block"
+                  src={"/images/projects/survey-lg.png"}
+                  width={800}
+                  height={350}
+                  alt="Survey app image"
+                />
+              </Link>
+
+              <Link href="https://github.com/kobbyMens/survey-app/tree/master">
+                <Image
+                  className="block md:hidden"
+                  src={"/images/projects/survey-app-small.png"}
+                  width={300}
+                  height={400}
+                  alt="Survey app image"
+                />
+              </Link>
+
               <h3 className="mt-4 tracking-widest text-base sm:text-lg md:text-xl">
-                PROJECT 1/4 :{" "}
+                PROJECT 1/3 :{" "}
                 <TypeAnimation
                   sequence={[1500, " FREE SURVEY", 500, " "]}
                   speed={50}
@@ -91,22 +98,28 @@ function ProjectSection() {
           {/* Project 2*/}
           <div className="snap-center w-full relative flex space-y-6 md:space-y-8 flex-col flex-shrink-0 items-center ">
             <div className="project-slide flex items-center flex-col">
-              <Image
-                className="hidden md:block"
-                src={"/images/projects/cedijob-lg.png"}
-                width={800}
-                height={350}
-                alt="Survey app image"
-              />
-              <Image
-                className="block md:hidden"
-                src={"/images/projects/cedijob-app-small.png"}
-                width={300}
-                height={400}
-                alt="Survey app image"
-              />
+              <Link href="https://www.cedijob.com/" target="_blank">
+                <Image
+                  className="hidden md:block"
+                  src={"/images/projects/cedijob-lg.png"}
+                  width={800}
+                  height={350}
+                  alt="Survey app image"
+                />
+              </Link>
+
+              <Link href="https://www.cedijob.com/" target="_blank">
+                <Image
+                  className="block md:hidden"
+                  src={"/images/projects/cedijob-app-small.png"}
+                  width={300}
+                  height={400}
+                  alt="Survey app image"
+                />
+              </Link>
+
               <h3 className="mt-4 tracking-widest text-base sm:text-lg md:text-xl">
-                PROJECT 2/4 :{" "}
+                PROJECT 2/3 :{" "}
                 <TypeAnimation
                   sequence={[1500, " CEDIJOB", 500, " "]}
                   speed={50}
@@ -152,24 +165,30 @@ function ProjectSection() {
           {/* Project 3*/}
           <div className="snap-center w-full relative flex space-y-6 md:space-y-8 flex-col flex-shrink-0 items-center ">
             <div className="project-slide flex items-center flex-col">
-              <Image
-                className="hidden md:block"
-                src={"/images/projects/survey-lg.png"}
-                width={800}
-                height={350}
-                alt="Survey app image"
-              />
-              <Image
-                className="block md:hidden"
-                src={"/images/projects/survey-app-small.png"}
-                width={300}
-                height={400}
-                alt="Survey app image"
-              />
+              <Link href="https://github.com/kobbyMens/twumasi-portfolio">
+                <Image
+                  className="hidden md:block"
+                  src={"/images/projects/portfolio-app-lg.png"}
+                  width={800}
+                  height={350}
+                  alt="Survey app image"
+                />
+              </Link>
+
+              <Link href="https://github.com/kobbyMens/twumasi-portfolio">
+                <Image
+                  className="block md:hidden"
+                  src={"/images/projects/portfolio-app-sm.png"}
+                  width={300}
+                  height={400}
+                  alt="Survey app image"
+                />
+              </Link>
+
               <h3 className="mt-4 tracking-widest text-base sm:text-lg md:text-xl">
-                PROJECT 2/4 :{" "}
+                PROJECT 3/3 :{" "}
                 <TypeAnimation
-                  sequence={[1500, " FREE SURVEY", 500, " "]}
+                  sequence={[1500, " PORTFOLIO APP", 500, " "]}
                   speed={50}
                   wrapper="span"
                   repeat={Infinity}
@@ -216,10 +235,8 @@ function ProjectSection() {
             </div>
 
             <p className="project-description text-sm md:text-base lg:text-center text-justify px-2">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac
-              enim vulputate, semper neque eu, facilisis arcu. Phasellus et dui
-              fermentum, pretium urna eget, facilisis nulla. Suspendisse commodo
-              at velit at cursus. Praesent ullamcorper eu enim at viverra
+              This is portfolio website for a web developer. It was built with
+              Next.js and tailwindcss.
             </p>
           </div>
         </div>
