@@ -19,7 +19,7 @@ function ProjectSection() {
             <div className="project-slide flex items-center flex-col">
               <Image
                 className="hidden md:block"
-                src={"/images/projects/survey-app-large-3.png"}
+                src={"/images/projects/survey-lg.png"}
                 width={800}
                 height={350}
                 alt="Survey app image"
@@ -93,7 +93,7 @@ function ProjectSection() {
             <div className="project-slide flex items-center flex-col">
               <Image
                 className="hidden md:block"
-                src={"/images/projects/cedijob-app-large.png"}
+                src={"/images/projects/cedijob-lg.png"}
                 width={800}
                 height={350}
                 alt="Survey app image"
@@ -154,7 +154,7 @@ function ProjectSection() {
             <div className="project-slide flex items-center flex-col">
               <Image
                 className="hidden md:block"
-                src={"/images/projects/survey-app-large-3.png"}
+                src={"/images/projects/survey-lg.png"}
                 width={800}
                 height={350}
                 alt="Survey app image"
