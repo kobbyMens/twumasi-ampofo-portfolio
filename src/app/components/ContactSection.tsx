@@ -2,6 +2,7 @@
 
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import CircularProgress from "@mui/material/CircularProgress";
 import { useState } from "react";
 import axios from "axios";
 
@@ -35,6 +36,7 @@ function ContactSection() {
       console.log(error);
       setErrorMessage("Unable to send email, try again later");
       setEmailSubmitted(false);
+      setEmailPending(false);
     }
   };
 
@@ -77,6 +79,7 @@ function ContactSection() {
                   className="contact-input  text-sm border border-[#33353F] bg-[#121212] hover:bg-[#18191E] rounded-lg"
                   id="email"
                   name="email"
+                  required
                   type="email"
                   placeholder="kobbymens@gmail.com"
                 />
@@ -89,6 +92,7 @@ function ContactSection() {
                   className=" contact-input border border-[#33353F] text-sm bg-[#121212] hover:bg-[#18191E] rounded-lg"
                   id="subject"
                   name="subject"
+                  required
                   placeholder="Main reason for connecting"
                   type="text"
                 />
@@ -101,6 +105,7 @@ function ContactSection() {
                   className="contact-input  border border-[#33353F] text-sm bg-[#121212] hover:bg-[#18191E] rounded-lg "
                   id="message"
                   name="message"
+                  required
                   placeholder="Hello, I am Kwame....."
                 />
               </div>
@@ -108,8 +113,21 @@ function ContactSection() {
                 className="flex py-2 rounded-lg font-semibold text-black hover:bg-[#47be90] bg-[#57d6a5] w-full align-center justify-center"
                 type="submit"
               >
-                Send Message
+                {emailPending ? (
+                  <CircularProgress size="25px" sx={{ color: "#fff" }} />
+                ) : (
+                  "Send Message"
+                )}
               </button>
+              <p className="text-red-600 text-sm">
+                {errorMessage ? errorMessage : null}
+              </p>
+
+              {emailSubmitted && (
+                <p className="text-[#57d6a5] text-sm">
+                  Email sent successfully
+                </p>
+              )}
             </form>
           </div>
         </div>

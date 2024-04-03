@@ -32,7 +32,7 @@ function SkillsSection() {
             imageSrc="/images/skills-logos/python-logo.png"
           />
           <SkillLogo
-            years={"1+"}
+            years={"2+"}
             imageSrc="/images/skills-logos/tailwind-css-logo.jpg"
           />
           <SkillLogo
